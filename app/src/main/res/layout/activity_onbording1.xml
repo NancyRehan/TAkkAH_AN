@@ -27,7 +27,7 @@
             android:layout_marginTop="450dp"
             android:gravity="center"
             android:keepScreenOn="true"
-            android:text="Welcome To Takkah"
+            android:text="Welcome To Takkah "
             android:fontFamily="sans-serif"
             android:textColor="@color/green"
             android:textSize="30sp"
