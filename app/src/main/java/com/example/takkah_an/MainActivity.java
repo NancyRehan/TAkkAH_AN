@@ -7,7 +7,6 @@ import com.daimajia.androidanimations.library.YoYo;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.View;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
@@ -34,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(MainActivity.this,onbording1.class);
+                Intent i = new Intent(MainActivity.this, onbording.class);
                 startActivity(i);
             }
         },4000);

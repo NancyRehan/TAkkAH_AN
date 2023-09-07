@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">TAkkAH_AN</string>
+    <string name="app_name">TAkkAH</string>
+    <string name="heading1">Welcome To Takkah</string>
+    <string name="heading2">Most Reliable</string>
+    <string name="heading3">Straight &amp; Easy</string>
+    <string name="description1">The most and reliable and fast delivery service!</string>
+    <string name="description2">24 / 7 Active client support to give you the best service</string>
+    <string name="description3">Get your order on the way with no more than A Tap!</string>
 </resources>
