@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPage">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="15dp"
+
+        app:srcCompat="@drawable/green" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView2"
+        android:layout_marginStart="29dp"
+
+        android:layout_marginTop="2dp"
+        android:text="LOG In"
+        android:textColor="@color/black"
+
+
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="330dp"
+
+        android:layout_height="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="269dp"
+        android:background="@drawable/shapedit"
+
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="nan@gmail.com"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_em"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="260dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="Email Address"
+
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_passw"
+        android:layout_width="330dp"
+
+        android:layout_height="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="339dp"
+        android:background="@drawable/shapedit"
+        android:ems="10"
+
+
+        android:hint="***********"
+        android:paddingLeft="25dp"
+        android:textColorHint="@color/black" />
+
+
+    <TextView
+        android:id="@+id/tv_passw"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="330dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="password"
+
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_forget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_passw"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="44dp"
+        android:text="Forgot Password?"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/bt_log"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_forget"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/shap"
+        android:gravity="center"
+
+        android:text="LOGIn"
+
+
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tv_don"
+        android:layout_width="330dp"
+
+        android:layout_height="30dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="490dp"
+
+
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:text="Dont have an account?"
+
+        android:textColorHint="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_sign"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="490dp"
+
+        android:gravity="center"
+        android:text="sign up"
+        android:textColor="@color/green"
+
+
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="519dp"
+        android:text="OR"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_go"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="35dp"
+
+        android:layout_marginTop="540dp"
+        android:background="@drawable/shapedit" />
+
+    <TextView
+        android:id="@+id/si_google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="550dp"
+        android:text="sign in with Google"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_face"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="35dp"
+
+        android:layout_marginTop="600dp"
+        android:background="@drawable/shapedit" />
+
+    <TextView
+        android:id="@+id/sin_face"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="612dp"
+        android:text="sign in with facebook"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/face_img"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="604dp"
+        android:src="@drawable/facebook" />
+
+    <ImageView
+        android:id="@+id/google_img"
+        android:layout_width="23dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="550dp"
+        android:src="@drawable/search" />
+
+</RelativeLayout>

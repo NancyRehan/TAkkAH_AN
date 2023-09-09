@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderPage">
+
+    <ImageView
+        android:id="@+id/im_vector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24" />
+    <TextView
+        android:id="@+id/tv_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="ORDER"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_driver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="40dp"
+        android:text="Driver"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/im_man"
+        android:layout_width="99dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/newman" />
+    <TextView
+        android:id="@+id/tv_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="70dp"
+        android:text="Abdelrahman Almajayda"
+        android:textSize="14dp"
+
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="86dp"
+        android:text="Total Orders: 250 - Canceled: 37" />
+    <TextView
+        android:id="@+id/tv_comple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="102dp"
+        android:text="Completion Rate: 4/5 " />
+    <TextView
+        android:id="@+id/tv_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="120dp"
+        android:text="contact : 059-321-4563" />
+    <TextView
+        android:id="@+id/tv_golden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="138dp"
+        android:text="Golden Tier 23 LV"
+        android:textColor="@color/orange" />
+    <ImageView
+        android:id="@+id/im_sta1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="154dp"
+        android:src="@drawable/ic_baseline_star_24" />
+    <ImageView
+        android:id="@+id/im_sta2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="154dp"
+        android:src="@drawable/ic_baseline_star_24" />
+    <ImageView
+        android:id="@+id/im_sta3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_star_24"
+        android:layout_marginTop="154dp"
+        android:layout_marginStart="80dp"/>
+
+    <ImageView
+        android:id="@+id/im_sta4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="154dp"
+        android:src="@drawable/ic_baseline_star_24" />
+
+    <ImageView
+        android:id="@+id/im_sta5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="154dp"
+        android:src="@drawable/ic_baseline_star_half_24" />
+
+    <TextView
+        android:id="@+id/tv_deta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="184dp"
+        android:text="Details"
+        android:textColor="@color/black"
+
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/im_gaza"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="223dp"
+        android:src="@drawable/gg" />
+    <TextView
+        android:id="@+id/tv_gda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="220dp"
+        android:text="Gaza_Deir_al_Balah_Balad"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tv_osa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="235dp"
+        android:text="osama khudair" />
+    <ImageView
+        android:id="@+id/im_blue"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="260dp"
+        android:src="@drawable/bb" />
+
+    <TextView
+        android:id="@+id/tv_moasc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="260dp"
+        android:text="Gaza_Deir_al_moascar"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+    <TextView
+        android:id="@+id/tv_ahmed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="275dp"
+        android:text="ahmed khudair" />
+
+    <ImageView
+        android:id="@+id/im_mof"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/mof" />
+    <TextView
+        android:id="@+id/tv_290"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="300dp"
+        android:text="290"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/tv_upon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="314dp"
+        android:text="upon recipt" />
+    <ImageView
+        android:id="@+id/im_tel"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="335dp"
+        android:src="@drawable/tel" />
+
+    <TextView
+        android:id="@+id/tv_telnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="340dp"
+        android:text="059-123-1234" />
+
+    <TextView
+        android:id="@+id/tv_det2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="380dp"
+        android:text="Details"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_lor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="400dp"
+        android:text="lorem ipsum dolor set amet consecteture." />
+    <TextView
+        android:id="@+id/tv_pose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="418dp"
+        android:text="posuere vulptate no id duis arcu sollicitudin" />
+
+    <TextView
+        android:id="@+id/tv_lec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="438dp"
+        android:text="lectus massa.vilae eleifend neque volutpat" />
+    <TextView
+        android:id="@+id/tv_amet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="459dp"
+        android:text="amet libero.Adipiscing vestibutum montes sit" />
+
+    <TextView
+        android:id="@+id/tv_nist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="480dp"
+        android:text="nist amet a convallis" />
+    <TextView
+        android:id="@+id/tv_caili"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="510dp"
+        android:text="Cailibrator"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="50dp"
+
+        android:layout_marginTop="540dp"
+        android:background="@drawable/orangeshape" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="584dp"
+        android:textColor="@color/black"
+
+        android:text="8 min" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="549dp"
+        android:src="@drawable/clo" />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="150dp"
+
+        android:layout_marginTop="540dp"
+        android:background="@drawable/shapegreen" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="250dp"
+
+        android:layout_marginTop="540dp"
+        android:background="@drawable/blueshape" />
+    <ImageView
+        android:id="@+id/im_blue2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="550dp"
+        android:src="@drawable/bb" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="584dp"
+        android:textColor="@color/black"
+
+        android:text="222 m" />
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="549dp"
+        android:src="@drawable/ssss" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="584dp"
+        android:textColor="@color/black"
+
+        android:text="34" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="628dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="rate me" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="655dp"
+        android:background="@drawable/orangeshape" />
+    <ImageView
+        android:id="@+id/im_sta7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="662dp"
+        android:src="@drawable/ic_baseline_star_24" />
+
+    <ImageView
+        android:id="@+id/im_sta8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="662dp"
+        android:src="@drawable/ic_baseline_star_24" />
+    <ImageView
+        android:id="@+id/im_sta9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="187dp"
+        android:layout_marginTop="662dp"
+        android:src="@drawable/ic_baseline_star_24" />
+
+    <ImageView
+        android:id="@+id/im_sta10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="662dp"
+        android:src="@drawable/ic_baseline_star_24" />
+
+    <ImageView
+        android:id="@+id/im_sta12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="257dp"
+        android:layout_marginTop="662dp"
+        android:src="@drawable/ic_baseline_star_border_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="698dp"
+        android:layout_centerHorizontal="true"
+        android:text="23 / 7 / 2022" />
+
+
+
+</RelativeLayout>
